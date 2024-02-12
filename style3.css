@@ -1,0 +1,219 @@
+import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height:100vh;
+    background:url(boom.jpg);
+	display:flex;
+	justify-content:center;
+	align-items:bottom;
+	
+	.course-details h4 a,
+.readmore,
+.testimonial strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.5;
+}
+
+.cop-logo img,
+a {
+    color: #000;
+    text-decoration: none !important;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.check li:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: 16px;
+    left: 0;
+    padding-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.check li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.check li:last-child {
+    margin-bottom: 0;
+}
+
+.check {
+    margin-left: 0;
+    padding-left: 0
+}
+
+.check li a {}
+
+.authorbox,
+blockquote {
+    border: 0;
+    margin: 30px 0;
+    position: relative;
+    padding: 4rem 3rem;
+    font-family: 'Droid Serif', sans-serif;
+    font-style: italic;
+    border: 1px solid #eaeaea;
+    background-color: #f6f6f6;
+}
+
+blockquote:after {
+    content: "\f10e";
+    padding: 5px;
+    font-family: FontAwesome;
+    position: absolute;
+    bottom: 0px;
+    color: #f6f6f6;
+    font-size: 24px;
+    right: 10px;
+}
+
+blockquote:before {
+    content: "\f10d";
+    padding: 5px;
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    color: #f6f6f6;
+    font-size: 24px;
+    left: 10px;
+}
+	
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+ul{
+	width:absolute;
+	position:absolute;
+	float:left;
+	margin-top:10px;
+}
+
+li{
+
+	display:inline-block;
+	padding:15px 30px;
+	align-items:bottom;
+}
+a{
+	text-align:center;
+	color:#fff;
+	
+	text-decoration:none;
+	font-family:'Open Sans',sans-serif;
+	font-size:1.2vw;
+}
+
+/******************************************
+COLOR BLUE
+******************************************/
+
+.yamm .dropdown .dropdown-menu {
+    border-top-color: #01bacf;
+}
+
+.iconitem a.shopicon i {
+    color: #01bacf !important;
+}
+
+.shop-desc small,
+.shop-meta a,
+.authorbox small,
+blockquote:before,
+blockquote:after,
+.blog-meta small a,
+.small-box i,
+.copyrights ul li:hover a,
+.footer .readmore,
+.breadcrumb>li a,
+.yamm h4,
+.yamm-content li:hover a,
+.yamm .hassubmenu li:hover a,
+.check li:before,
+.stat-count h3,
+.blog-desc h4:hover a,
+.post-meta li:after,
+.course-box small,
+.course-details h4:hover a,
+.course-footer i,
+a:hover,
+a:focus,
+.box i,
+.topbar .text-left i {
+    color: #01bacf;
+}
+
+.shop-extra .nav-tabs>li:hover a,
+.shop-extra .nav-tabs>li.active a,
+.modal .form-control,
+.form-control:focus,
+.btn-transparent {
+    border-color: #01bacf !important;
+}
+
+.cb,
+.box .event-desc small,
+.pagination a,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.tags-widget a,
+.owl-theme-01 .owl-nav [class*="owl-"]:hover,
+.yamm .dropdown-menu li:hover .menu-button,
+.yamm .dropdown-menu li .menu-button,
+mark,
+.bgcolor1,
+.image-wrap:before,
+.image-wrap:after,
+.btn-primary {
+    border-color: #01bacf;
+    background-color: #01bacf;
+    box-shadow: inset 0 0 0 0 #00a8bd;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+.pagination a:hover,
+.tags-widget a:hover,
+.btn-primary:hover {
+    color: #ffffff !important;
+    box-shadow: inset 0 100px 0 0 #00a8bd;
+    border-color: #00a8bd;
+}
+
+
+
